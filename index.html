@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TuneSync - Sync your favorite music with TikTok videos and follow the latest trends.">
+    <meta property="og:title" content="TuneSync">
+    <meta property="og:description" content="Sync your music with TikTok videos and follow the latest trends.">
+    <meta property="og:image" content="screenshot.png">
+    <title>TuneSync</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Spinner -->
+    <div class="loader" id="loader"></div>
+
+    <!-- Header Section -->
+    <header>
+        <h1>TuneSync</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Features of TuneSync</h2>
+        <ul>
+            <li>Sync your favorite music with TikTok videos.</li>
+            <li>Track trends in your personalized dashboard.</li>
+            <li>Get recommendations based on your music taste.</li>
+        </ul>
+        <img src="screenshot.png" alt="App Screenshot" width="300">
+    </section>
+
+    <!-- Newsletter Subscription Form -->
+    <section id="contact">
+        <h2>Subscribe for Updates</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="email" name="email" id="email" required placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Copyright © 2024 TuneSync. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript to Hide Loader -->
+    <script>
+        window.onload = function() {
+            document.getElementById('loader').style.display = 'none';
+        };
+    </script>
+</body>
+</html>
